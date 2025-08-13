@@ -1,1 +1,13 @@
 @import "reset.css";
+
+/*
+    * Select root from project: <html>
+    * Use to define global CSS variables
+*/
+:root {
+    --color1: #FFA7A7;
+}
+
+body {
+    background-color: var(--color1);
+}
